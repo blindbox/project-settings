@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": 1
+  },
+
+  "globals": {
+    "angular": 1,
+    "sinon": 1,
+    "describe": 1,
+    "before": 1,
+    "beforeEach": 1,
+    "afterEach": 1,
+    "it": 1,
+  },
+
+  "rules": {
+    "quotes": 0,
+    "eqeqeq": ["error", "smart"],
+    "brace-style": 0,
+    "padded-blocks": 0,
+    "no-multiple-empty-lines": 0,
+    "comma-dangle": 0,
+    "no-trailing-spaces": 0,
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ecmaVersion": 6,
+  "libs": [
+    "jquery",
+    "browser"
+  ],
+  "loadEagerly" : [
+    "node_modules/sequelize/**/*.js"
+  ],
+  "plugins": {
+    "complete_strings": {},
+    "node": {},
+    "node-extension": {},
+    "node-express": {},
+    "lint": {},
+    "angular": {},
+    "requirejs": {},
+    "modules": {},
+    "es_modules": true,
+    "doc_comment": {
+      "fullDocs": true
+    }
+  }
+}
